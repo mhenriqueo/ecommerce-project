@@ -1,14 +1,15 @@
 package com.ecommerce.order_service.dto;
 
+import com.ecommerce.order_service.model.enums.OrderStatus;
 import lombok.*;
 
 @Getter
-@Setter
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
 public class OrderNotificationDTO {
     private Long orderId;
     private String productName;
     private int quantity;
-    private String status;
+    private OrderStatus status;
 }

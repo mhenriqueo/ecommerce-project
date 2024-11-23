@@ -12,7 +12,7 @@
 	<artifactId>order-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>order-service</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Serviço responsável pelo gerenciamento de pedidos no sistema de e-commerce</description>
 	<url/>
 	<licenses>
 		<license/>
